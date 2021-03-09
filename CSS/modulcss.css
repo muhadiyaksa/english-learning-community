@@ -1,0 +1,49 @@
+#navigasi{
+    background-color: rgba(69, 255, 218, 0.7);
+    font-weight: bold;
+    top:-75px;
+    transition: 0.5s;
+    z-index:10;
+}
+.list{
+    transition: 0.2s;
+}
+.list:hover{
+    background-color: rgba(49, 49, 49, 0.4);
+    border-radius: 10px;
+}
+.indonesia{
+    width: 300px;
+    font-size: 24px;
+    color: white;
+}
+
+.klikmodul{
+    padding-bottom: 10px;
+    transition: 0.1s;   
+    }
+
+.klikmodul:hover{
+    border-bottom: 2px solid rgb(0, 174, 255);
+    border-image-slice: 1;
+}
+.bulan{
+    margin-bottom: 20px;
+}
+.bulan h1{
+    z-index: 10;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: 0.5s;
+    top:15%;
+    box-shadow: 3px 3px 8px rgba(36, 36, 36,0.3);
+    visibility: visible;
+}
+
+.bulan p{
+    z-index: 0;
+    transition: 0.5s;
+    top:5%;
+}

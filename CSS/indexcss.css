@@ -1,0 +1,55 @@
+#navigasi{
+    background-color: rgba(69, 255, 218, 0.7);
+    font-weight: bold;
+    top:-75px;
+    transition: 0.5s;
+}
+.list{
+    transition: 0.2s;
+}
+.list:hover{
+    background-color: rgba(49, 49, 49, 0.4);
+    border-radius: 10px;
+}
+.ikon{ 
+    position: relative;
+    height: 200px;
+    border: 0px;
+    border-radius: 20px;
+    width: 80%;
+    padding-bottom: 30px;
+}
+.ikon img{
+    z-index: 2;
+    padding: 10px;
+    border-radius: 20px;
+    left: 30%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    transition: 0.3s;
+    top: 5%;
+}
+.ikon:hover img{
+    box-shadow: 3px 3px 15px rgba(0, 255, 213, 0.4);
+    top:-18%;
+}
+
+.ikon p{
+    z-index: 1;
+    position: absolute;
+    visibility: hidden;
+    margin-bottom: 20px;
+    top: 10%;
+    opacity: 0;
+    transition: 0.5s;
+}
+.ikon:hover p{
+    top:55%;
+    visibility: visible;
+    opacity: 1;
+}
+.keterangan{
+    text-align: justify;
+}

@@ -1,0 +1,62 @@
+
+nav{
+    background-color: rgba(69, 255, 218, 0.7) !important;
+    font-weight: bold;
+}
+.btn-outline-info{
+    border-radius: 18px !important;
+}
+.btn-outline-danger{    
+    border-radius: 18px !important;
+}
+.btn-outline-primary{
+    border-radius: 18px !important;
+}
+#justify{
+    text-align: justify !important;
+}
+.atas{
+    -webkit-transition: 1.0s ease-in-out;
+  	transition:all 1.0s ease-in-out;
+}
+.atas h1{
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -o-transition: all .7s ease;  
+    transition: all .7s ease;
+}
+
+
+#animated{
+    background-color: #FF0000;
+}
+#animated2{
+    background-color : #FFFF66;
+}
+#animated3{
+    background-color: #9966ff ;
+}
+
+/*CSS GALERY 
+.ikon { 
+    margin :50px 0 0 0; 
+    -moz-animation : animaputar 2s infinite linear; 
+    -webkit-animation : animaputar 3.5s infinite linear; 
+} 
+
+@-webkit-keyframes animaputar { 
+    10% {transform:rotateY(36deg)}
+    20% {transform:rotateY(72deg)}
+    30% {transform:rotateY(108deg)}
+    40% {transform:rotateY(144deg)}
+    50% {transform:rotateY(180deg)}
+    60% {transform:rotateX(216deg)}
+    70% {transform:rotateX(252deg)}
+    80% {transform:rotateX(288deg)}
+    90% {transform:rotateX(324deg)}
+    100% {transform:rotateX(360deg)}
+}
+*/
+
+
+

@@ -1,0 +1,34 @@
+#navigasi{
+    top:-75px;
+    transition: 0.3s;
+    z-index: 10;
+    background-color: rgba(69, 255, 218, 0.7) ;
+    font-weight: bold;
+}
+.list{
+    transition: 0.2s;
+}
+.list:hover{
+    background-color: rgba(49, 49, 49, 0.4);
+    border-radius: 10px;
+}
+
+.offline  img{
+    box-shadow: 3px 3px 5px rgba(54, 54, 54, 0.7);
+    transition: 0.3s;
+}
+.offline:hover img{
+    box-shadow: 6px 6px 20px rgba(54, 54, 54, 0.5);
+    -webkit-transform: scale(1.08);
+  	transform: scale(1.08);
+}
+
+.online  img{
+    box-shadow: 3px 3px 5px rgba(54, 54, 54, 0.7);
+    transition: 0.3s;
+}
+.online:hover img{
+    box-shadow: 6px 6px 20px rgba(54, 54, 54, 0.5);
+    -webkit-transform: scale(1.08);
+  	transform: scale(1.08);
+}
