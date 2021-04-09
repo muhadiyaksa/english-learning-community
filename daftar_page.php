@@ -39,7 +39,7 @@
     		</tr>
             
             <tr>
-            	<td></td>
+            	<td></td> 
 				<td><p id="result" class="fs-6 text-secondary"></p></td>
             </tr>
             
@@ -124,7 +124,7 @@
 				echo "<p><font color='red'>SORRY!, we cannot enter your data because the ID is already registered</font></p>";
 			}
 			else{
-    			$hasil = mysqli_query($mysqli, "INSERT INTO dataidpwuser VALUES ('".$id."','".$pw."','".$nama."','".$no_telp."','".$email_."','".$tanggal_lahir."','".$alamat_."','".$kota_."','".$provinsi_."','".$jeniskelamin."','".$alasan_."')");
+    			mysqli_query($mysqli, "INSERT INTO dataidpwuser VALUES ('".$id."','".$pw."','".$nama."','".$no_telp."','".$email_."','".$tanggal_lahir."','".$alamat_."','".$kota_."','".$provinsi_."','".$jeniskelamin."','".$alasan_."')");
 				echo "<p>Congratulations , Your account have been Registered</p>";
 			}
 		}
