@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/cssgalery.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <script type="text/javascript" src="animationjs.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/animationjs.js"></script>
     <!-- my css -->
     <style>
       section{
@@ -142,11 +142,11 @@
 
         <div class="row pt-2 mb-2">
           <div class="col text-center">
-            <a href="https://gmail.com" class="btn btn-outline-danger px-3"><i class="fas fa-envelope"></i> elc_indonesia@gmail.com</a>
+            <a href="https://gmail.com" class="btn btn-outline-danger px-3"><i class="fa fa-google"></i> elc_indonesia@gmail.com</a>
             <p>or</p>
             <p>Follow Our Social Media</p>
-            <p><a href="https://instagram.com" class="btn btn-outline-primary px-4"><i class="fab fa-instagram"></i> @english_community</a></p>
-            <p><a href="https://facebook.com" class="btn btn-outline-primary px-4"><i class="fab fa-facebook"></i> @english_community</a></p>
+            <p><a href="https://instagram.com" class="btn btn-outline-primary px-4"><i class="fa fa-instagram"></i> @english_community</a></p>
+            <p><a href="https://facebook.com" class="btn btn-outline-primary px-4"><i class="fa fa-facebook"></i> @english_community</a></p>
           </div>
         </div>
         
@@ -163,7 +163,7 @@
       </div> 
     </footer>
     
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </body>
 </html>
 <script>

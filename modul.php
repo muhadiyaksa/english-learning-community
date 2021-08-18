@@ -10,13 +10,13 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/modulcss.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- my css -->
-    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="animation.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/animation.js"></script>
     
     <style>
       section{
@@ -151,21 +151,21 @@ session_start();
           <img src="gambar/iconmodul.png" alt="" style="max-width: 125px; margin-bottom: 20px;" >
           <br>
           <p class="text-center fw-bold fs-3 text-secondary px-1 mx-2 pt-2" id = "radius">E-Learning Module Chapter One</p>
-          <p ><a href="file/modul1.pdf" class="klikmodul  mb-4 " style="text-decoration:none">Click Here To Download</a><p>
+          <p ><a href="file/modul1.pdf" target="blank" class="klikmodul  mb-4 " style="text-decoration:none">Click Here To Download</a><p>
         </div>  
           
         <div class="col-md text-center my-4" >
           <img src="gambar/iconmodul.png" alt="" style="max-width: 125px; margin-bottom: 20px;" >
           <br>
           <p class="text-center fw-bold fs-3 text-secondary px-1 mx-2 pt-2" id = "radius">E-Learning Module Chapter Two</p>
-          <p><a href="file/modul2.pdf" class="klikmodul  mb-4 " style="text-decoration:none">Click Here To Download</a><p>
+          <p><a href="file/modul2.pdf" target="blank" class="klikmodul  mb-4 " style="text-decoration:none">Click Here To Download</a><p>
         </div>  
         
         <div class="col-md text-center my-4" >
           <img src="gambar/iconmodul.png" alt="" style="max-width: 125px; margin-bottom: 20px;" >
           <br>
           <p class="text-center fw-bold fs-3 text-secondary  px-1 mx-2 pt-2 " id = "radius">E-Learning Module Chapter Three</p>
-          <p ><a href="file/modul2.pdf" class="klikmodul  mb-4 " style="text-decoration:none">Click Here To Download</a><p>
+          <p ><a href="file/modul2.pdf" target="blank" class="klikmodul  mb-4 " style="text-decoration:none">Click Here To Download</a><p>
         </div>  
       </div>
     </section>
@@ -227,8 +227,8 @@ session_start();
 
         <div class="row pt-2 mb-2">
           <div class="col text-center">
-            <p><a href="https://instagram.com" class="btn btn-outline-warning rounded-pill"><i class="fab fa-instagram"></i> @english_community</a></p>
-            <p><a href="https://facebook.com" class="btn btn-outline-primary rounded-pill"><i class="fab fa-facebook"></i> @english_community</a></p>
+            <p><a href="https://instagram.com" target="blank" class="btn btn-outline-warning rounded-pill"><i class="fa fa-instagram"></i> @english_community</a></p>
+            <p><a href="https://facebook.com" target="blank" class="btn btn-outline-primary rounded-pill"><i class="fa fa-facebook"></i> @english_community</a></p>
           </div>
         </div>
         
@@ -271,8 +271,8 @@ ob_flush();
 </script>
 
 <script>
-  $() <- Bentuk pertama dalam javascript dengan Jquery
-  $(function(){}) <- bentuk Kedua dalam Javascript dengan Jquery 
+  // $() <- Bentuk pertama dalam javascript dengan Jquery
+  // $(function(){}) <- bentuk Kedua dalam Javascript dengan Jquery 
 </script>
 
 
