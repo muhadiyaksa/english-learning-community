@@ -14,5 +14,9 @@
 ### Where can I see the website?
 ##### for now it has not been realized, I am still trying to do hosting for free so that the website can be accessed online , So just wait ^_^
 
+### Preview
+<img src="gambar/preview.gif">
+<hr>
+
 ##### ThankYou 
 ##### Regards, Muhamad Adi YAksa
